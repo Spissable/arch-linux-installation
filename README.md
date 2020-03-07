@@ -110,7 +110,7 @@ Once done it can take some seconds - confirm it worked using ping
 `vim /etc/mkinitcpio.conf`
 
 ```
-# Optional for f2fs - add module crypto-crc32
+# (Optional) For f2fs required - add module crypto-crc32
 MODULES=(crypto-crc32)
 
 # Important - Use the correct order
